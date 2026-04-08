@@ -19,10 +19,23 @@ The data preprocessing and analysis were run using **R version 4.4.1**. A list o
 
 Code File description:
 - "**Preprocessing_surveillance_data.R**". This file is used for data aggregation and preprocessing.
-- "**DSC_aegy_sequential.R**". The main file for analysis. Serial computation for sectors is proceeded in this file.
-- "**DSC_aegy_sector.R**". The source file for analysis. This file shows how the analysis is proceeded for each sector step by step.
-- "**DSC_aegy_aux_func.R**". The source file containing all auxiliary functions.
-- (Other files will be updated later)
+
+- "**DSC_aegy_sequential.R**". The main file for analyzing direct treatment effect on *Ae. aegypti* abundance. Serial computation for sectors is proceeded in this file.
+- "**DSC_aegy_sector.R**". The source file for analysis on *Ae. aegypti* abundance. This file shows how the analysis is proceeded for each sector step by step.
+- "**DSC_aegy_aux_func.R**". The source file containing all auxiliary functions for analyzing direct treatment effects on *Ae. aegypti* abundance.
+- "**DSC_aegy_spillover_test.R**" The main file for analyzing spillover effects on *Ae. aegypti* abundance. Serial computation for sectors is proceeded in this file.
+
+- "**DSC_albo_aux_func.R**" The source file containing all auxiliary functions for analyzing direct effects on *Ae. albopictus* abundance.
+- "**DSC_albo_sector.R**" The source file for analysis on *Ae. albopictus* abundance. This file shows how the analysis is proceeded for each sector step by step.
+- "**DSC_albo_sequential.R**"
+
+- "**DSC_binary_aux_func.R**"
+- "**DSC_binary_sector.R**"
+- "**DSC_binary_sequential.R**"
+- "**DSC_binary_spillover_test.R**"
+
+- DSC_get_main_figures.R
+Files related to visualizing robustness check will NOT be updated.
 
 Data File description: (**Data is not provided in this repository**)
 - "**YYYY_QQ_weekly_trap_albo.xlsx**" which "**YYYY**" is replaced by the year of data recording and "**QQ**" is replaced by the quarter of data recording. These files contains the number of wild-type ***Ae. aegypti*** and ***Ae. albopictus*** caught in Gravitraps in an epidemiological week.
