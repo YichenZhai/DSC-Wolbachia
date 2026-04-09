@@ -25,16 +25,17 @@ Code File description:
 - "**DSC_aegy_aux_func.R**". The source file containing all auxiliary functions for analyzing direct treatment effects on *Ae. aegypti* abundance.
 - "**DSC_aegy_spillover_test.R**" The main file for analyzing spillover effects on *Ae. aegypti* abundance. Serial computation for sectors is proceeded in this file.
 
-- "**DSC_albo_aux_func.R**" The source file containing all auxiliary functions for analyzing direct effects on *Ae. albopictus* abundance.
+- "**DSC_albo_sequential.R**" The main file for analyzing direct effect on *Ae. albopictus* abundance. Serial computation for sectors is proceeded in this file.
 - "**DSC_albo_sector.R**" The source file for analysis on *Ae. albopictus* abundance. This file shows how the analysis is proceeded for each sector step by step.
-- "**DSC_albo_sequential.R**"
+- "**DSC_albo_aux_func.R**" The source file containing all auxiliary functions for analyzing direct effects on *Ae. albopictus* abundance.
 
-- "**DSC_binary_aux_func.R**"
-- "**DSC_binary_sector.R**"
-- "**DSC_binary_sequential.R**"
-- "**DSC_binary_spillover_test.R**"
+- "**DSC_binary_sequential.R**" The main file for analyzing the proportion of traps with no *Ae. aegypti*. Serial computation for sectors is proceeded in this file.
+- "**DSC_binary_sector.R**" The source file for analysis on the proportion of traps with no *Ae. aegypti*. This file shows how the analysis is proceeded for each sector step by step.
+- "**DSC_binary_aux_func.R**" The source file containing all auxiliary functions for analyzing the proportion of traps with no *Ae. aegypti*.
+- "**DSC_binary_spillover_test.R**" The main file for analyzing spillover effects on the proportion of traps with no *Ae. aegypti*.
 
-- DSC_get_main_figures.R
+- "**DSC_get_main_figures.R**" The file for plotting figures in the main text (Figure 2, SI Figure 1). Later the code for other figures (Figure 4,5) will be updated.
+
 Files related to visualizing robustness check will NOT be updated.
 
 Data File description: (**Data is not provided in this repository**)
