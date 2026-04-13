@@ -34,8 +34,7 @@ Code File description:
 - "**DSC_binary_aux_func.R**" The source file containing all auxiliary functions for analyzing the proportion of traps with no *Ae. aegypti*.
 - "**DSC_binary_spillover_test.R**" The main file for analyzing spillover effects on the proportion of traps with no *Ae. aegypti*.
 
-- "**DSC_get_main_figures.R**" The file for plotting figures in the main text (Figure 2, SI Figure 1). Later the code for other figures (Figure 4,5) will be updated.
-
+- "**DSC_get_main_figures.R**" The file for plotting figures in the main text (Manuscript Figure 2-5, SI Figure 1,2).
 Files related to visualizing robustness check will NOT be updated.
 
 Data File description: (**Data is not provided in this repository**)
